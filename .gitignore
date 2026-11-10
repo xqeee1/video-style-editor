@@ -1,0 +1,28 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime workspace - never commit user videos, caches or outputs
+projects/
+cache/
+tmp/
+logs/
+output/
+build/
+voice/
+subtitles/
+*.mp4
+*.wav
+*.mp3
+*.jpg
+*.ass
+*.srt
+*.zip
+
+# Packages / OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

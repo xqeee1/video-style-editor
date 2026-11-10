@@ -1,0 +1,61 @@
+{
+  "root": "D:/VideoEdit",
+  "drive_required": "D",
+  "ffmpeg": "ffmpeg",
+  "ffprobe": "ffprobe",
+  "python": "python",
+  "tts_dep": "edge-tts",
+  "subdirs": [
+    "venv",
+    "models",
+    "cache/pip",
+    "cache/frames",
+    "tmp",
+    "logs",
+    "projects"
+  ],
+  "project_subdirs": [
+    "reference",
+    "reference/keyframes",
+    "source",
+    "source/keyframes",
+    "voice",
+    "subtitles",
+    "build",
+    "output"
+  ],
+  "scene_threshold": 10.0,
+  "scene_probability": 0.20,
+  "silence_noise_db": -35,
+  "silence_min_duration": 0.25,
+  "contact_sheet_cols": 4,
+  "contact_sheet_rows": 4,
+  "contact_sheet_interval_sec": 2.0,
+  "default_voice": "zh-CN-XiaoxiaoNeural",
+  "line_gap_ms": 150,
+  "default_subtitle": {
+    "font": "Microsoft YaHei",
+    "fontsize": 72,
+    "primary_color": "&H00FFFFFF",
+    "outline_color": "&H00000000",
+    "bold": -1,
+    "outline": 3.0,
+    "shadow": 1.0,
+    "alignment": 2,
+    "margin_v": 140,
+    "max_chars_per_line": 18,
+    "position": "bottom"
+  },
+  "render": {
+    "vcodec": "libx264",
+    "crf": 20,
+    "preset": "medium",
+    "acodec": "aac",
+    "abitrate": "192k",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "bgm_volume_db": -20,
+  "ducking": true
+}
